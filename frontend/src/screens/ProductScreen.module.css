@@ -1,0 +1,47 @@
+.ImageSide {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.ImageSide img {
+    width: 60%;
+}
+
+.DetailSide  {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding: 60px 0;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+
+}
+
+.DetailSide i {
+    font-size: 15px;
+    color: #000 !important;
+}
+
+.DetailTitle {
+    margin-top: 30px;
+}
+.DetailPrice {
+    margin-top: 30px;
+}
+
+.DetailDescription {
+    margin-top: 40px;
+    padding: 0 30px;
+    color: #000;
+}
+.DetailButton {
+    background: #040304;
+    color: #fff;
+    margin-top: 50px;
+    padding: 15px 25px;
+    width: 50%;
+    border: 1px solid #000;
+}

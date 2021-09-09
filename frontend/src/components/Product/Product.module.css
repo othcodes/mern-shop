@@ -1,0 +1,53 @@
+.mainCardContainer {
+    position: relative;
+    text-align: center;
+    border: none;
+    margin: 80px 0;
+    /* padding-bottom: 15px; */
+}
+.mainCard {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    border-radius: 25px;
+}
+
+.mainCardContainer img{
+    width: 100%;
+}
+
+/* .ProductTitle,
+.ProductRating,
+.ProductPrice {
+    margin: 8px 0;
+} */
+.ProductTitle {
+    margin-top: 40px;
+}
+.ProductPrice {
+    background-color: #040304;
+    color: #fff;
+    width: 150px;
+    padding: 8px;
+    border-radius: 25px;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    bottom: 65px;
+    left: 0;
+    right: 0;
+}
+.ProductRating i {
+    font-size: 18px;
+}
+
+.ProductPrice span {
+    font-size: 16px;
+}
+
+.SeeDetails button {
+    padding: 15px;
+    background: antiquewhite;
+    text-align: center;
+    border: 1px solid #9a6926;
+    border-radius: 25px;
+    text-transform: uppercase;
+}

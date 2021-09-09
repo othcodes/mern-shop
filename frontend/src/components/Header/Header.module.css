@@ -1,0 +1,25 @@
+header {
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+.LogoContainer {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.NavigationCartContainer {
+    float: left;
+    width: 25%;
+    /* background-color: bisque; */
+}
+
+.NavigationContainer {
+    float: left;
+    width: 50%;
+    /* margin: auto; */
+    /* background-color: burlywood; */
+    text-align: center;
+}
